@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+button {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+.div_cat {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #833348;
+}
+.button {
+  background-color: #ffa09d;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.42;
+  margin-left: 250px;
+  letter-spacing: 1px;
+  color: white;
+}
+.button:hover {
+  transform: scale(1.1);
+  background-color: #ffb8b3;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.1;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #833348;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
